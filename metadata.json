@@ -1,0 +1,6 @@
+{
+  "name": "Pro Camera",
+  "description": "Real-time ISO, shutter speed, and white balance HUD with manual pro controls, rule of thirds grid, and full-sensor Open Gate shooting with maximum ISP quality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

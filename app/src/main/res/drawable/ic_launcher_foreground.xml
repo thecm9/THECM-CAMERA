@@ -1,0 +1,77 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera Body Silhouette / Lens Mount -->
+    <path
+        android:fillColor="#FF1F242D"
+        android:pathData="M30,30 L78,30 A8,8 0 0,1 86,38 L86,70 A8,8 0 0,1 78,78 L30,78 A8,8 0 0,1 22,70 L22,38 A8,8 0 0,1 30,30 Z" />
+
+    <!-- Cinema Lens Outer Bezel with Golden / Amber Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFB300"
+        android:strokeWidth="2.5"
+        android:pathData="M54,54m-23,0a23,23 0 1,1 46,0a23,23 0 1,1 -46,0" />
+
+    <!-- Lens Inner Optic Glass Gradient -->
+    <path
+        android:pathData="M54,54m-20,0a20,20 0 1,1 40,0a20,20 0 1,1 -40,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="74"
+                android:endY="74"
+                android:startX="34"
+                android:startY="34"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00E5FF" />
+                <item android:offset="0.6" android:color="#FF0052CC" />
+                <item android:offset="1.0" android:color="#FF0A192F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Aperture Blades Silhouette in Center -->
+    <path
+        android:fillColor="#E6050C16"
+        android:pathData="M54,42 L63,48 L63,60 L54,66 L45,60 L45,48 Z" />
+
+    <!-- Center Lens Core Flare -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,54m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" />
+
+    <!-- Viewfinder Metering Crosshairs & Indicators -->
+    <path
+        android:fillColor="#FFFFB300"
+        android:pathData="M27,35 L33,35 L33,37 L27,37 Z" />
+    <path
+        android:fillColor="#FFFFB300"
+        android:pathData="M27,35 L27,41 L29,41 L29,35 Z" />
+    <path
+        android:fillColor="#FFFFB300"
+        android:pathData="M81,35 L75,35 L75,37 L81,37 Z" />
+    <path
+        android:fillColor="#FFFFB300"
+        android:pathData="M81,35 L81,41 L79,41 L79,35 Z" />
+
+    <path
+        android:fillColor="#FF00E5FF"
+        android:pathData="M27,73 L33,73 L33,71 L27,71 Z" />
+    <path
+        android:fillColor="#FF00E5FF"
+        android:pathData="M27,73 L27,67 L29,67 L29,73 Z" />
+    <path
+        android:fillColor="#FF00E5FF"
+        android:pathData="M81,73 L75,73 L75,71 L81,71 Z" />
+    <path
+        android:fillColor="#FF00E5FF"
+        android:pathData="M81,73 L81,67 L79,67 L79,73 Z" />
+
+    <!-- Red Recording / Pro Tally Dot -->
+    <path
+        android:fillColor="#FFFF1744"
+        android:pathData="M78,38m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0" />
+</vector>
